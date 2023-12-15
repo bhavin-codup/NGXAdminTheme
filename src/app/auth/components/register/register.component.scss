@@ -1,0 +1,68 @@
+/**
+ * @license
+ * Copyright Akveo. All Rights Reserved.
+ * Licensed under the MIT License. See License.txt in the project root for license information.
+ */
+:host {
+  .title {
+    margin-bottom: 2rem;
+  }
+}
+
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+.sub-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+[nbInput].shape-rectangle {
+  border-radius: var(--input-rectangle-border-radius);
+}
+.form-control-group {
+  margin-bottom: 2rem;
+}
+.form-control-group.accept-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.another-action {
+  margin-top: 2rem;
+  text-align: center;
+}
+.links {
+  text-align: center;
+  margin-top: 1.75rem;
+}
+.links .socials {
+  margin-top: 1.5rem;
+}
+.links .socials a {
+  margin: 0 1rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.caption {
+  margin-top: 0.5rem;
+}
+.caption.status-danger, .caption-2.status-danger {
+  color: var(--text-danger-color);
+}
+.error-message{
+  color: var(--text-danger-color);
+  margin-top: 0.5rem;
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+
+.sign-in-or-up {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
